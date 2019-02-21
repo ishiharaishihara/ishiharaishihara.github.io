@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    site:
+        image: jekyll/jekyll
+        volumes:
+            - ./:/var/www
+        working_dir: /var/www
+        command: sh -c 'jekyll serve -s /var/www --watch'
+        ports:
+            - '4000:4000'
