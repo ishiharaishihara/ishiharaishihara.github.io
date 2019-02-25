@@ -1,3 +1,4 @@
+exclude: ['docker-compose.yml','github-personal-website.gemspec','README.md','LICENSE.txt','Gemfile','Gemfile.lock']
 layout: stacked
 style: dark
 
